@@ -53,7 +53,7 @@ class Client extends EventEmitter
         if response.statusCode == 200
           try
             json = JSON.parse buffer
-            if json.error? then err = new Error json.error
+            if json.error? then err = new Error JSON.stringify(json.error)
             if json.result? then msg = json.result
           catch e
             err = e

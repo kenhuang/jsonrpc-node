@@ -4,32 +4,39 @@
   "version": "1.2.93",
   "author": "Victor Bucataru <ping@devktor.com>",
   "description": "JSON RPC client/server with multiple transport types : TCP, HTTP, Middleware and SSL support",
-  "contributors": [ 
+  "contributors": [
     {
       "name": "Victor Bucataru",
       "email": "ping@devktor.com"
-    } 
+    }
   ],
-  "dependencies" : {
+  "dependencies": {
     "coffee-script": "*",
     "express": "*",
     "body-parser": "*"
   },
   "license": "MIT",
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/devktor/jsonrpc-node"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devktor/jsonrpc-node"
   },
-  "bugs":{
+  "bugs": {
     "url": "https://github.com/devktor/jsonrpc-node/issues"
   },
   "scripts": {
     "install": "coffee  -o lib -c src/"
   },
-  "keywords": ["jsonrpc", "rpc", "tcp", "udp", "socket", "client", "server"],
+  "keywords": [
+    "jsonrpc",
+    "rpc",
+    "tcp",
+    "udp",
+    "socket",
+    "client",
+    "server"
+  ],
   "main": "lib/main.js",
   "engines": {
     "node": "*"
   }
 }
-
